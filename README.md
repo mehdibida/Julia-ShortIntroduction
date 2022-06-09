@@ -1,10 +1,5 @@
 
-
----
-title: A Short Introduction to Julia
----
-
-This is a short introduction to Julia made for people who are already familiar with programming.
+This is a short introduction to Julia (valid at least until version 1.6) made for people who are already familiar with programming. Please consider using the html file for a better graphical rendering.
 
 ## Basics
 
@@ -178,7 +173,7 @@ avoiding the performance penalty linked to abstract types.
 #### Important non-primitive types
 
 ##### Arrays
-[`Arrays`](https://docs.julialang.org/en/v1/base/arrays) are lists of objects indexed by an element in ``\{1, ..., n_1\} \times \{1, ..., n_2\} \times \dots \times \{1, ..., n_d\}``, where ``d`` is the dimension of the array. `Array` is a parametric type taking as arguments
+[`Arrays`](https://docs.julialang.org/en/v1/base/arrays) are lists of objects indexed by an element in $\{1, ..., n_1\} \times \{1, ..., n_2\} \times \dots \times \{1, ..., n_d\}$, where $d$ is the dimension of the array. `Array` is a parametric type taking as arguments
 the type of objects contained (`Float64`, `String`, `Bool`, etc.) and a positive integer corresponding to the dimension of the array, e.g. a three dimensional array containing only `Float64` has type `Array{Float64, 3}`. The type of the contained
 objects can be abstract (e.g. `Real` for any kind of number, or `Any` if the contained elements are heterogeneous), but this impacts negatively the performance of the code.
 
