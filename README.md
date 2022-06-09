@@ -1,5 +1,5 @@
 
-This is a short introduction to Julia (valid for versions >= 1.2 and at least until version 1.6) made for people who are already familiar with programming. Please consider using the html file for a better graphical rendering.
+This is a short introduction to Julia (valid for versions >= 1.2 and at least until version 1.6) made for people who are already familiar with programming. Please consider using the html file for a better graphical rendering of this introduction.
 
 ## Basics
 
